@@ -1,0 +1,9 @@
+
+---
+applications:
+- name: spring-mvc-showcase
+  memory: 512M
+  instances: 1
+  random-route: true
+  path: target/spring-mvc-showcase.war
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
